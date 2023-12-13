@@ -4,6 +4,7 @@ import static io.restassured.RestAssured.given;
 import java.lang.*;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import org.json.simple.parser.JSONParser;
 
 import com.nn.environment.CustomerCredentials;
 import com.nn.environment.MerchantCredentials;
@@ -15,6 +16,43 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
 public class DirectDebitSEPA {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	// @Test(dataProvider = "iban_bic")
 	public static void ibanBic(String iban, String bic) {

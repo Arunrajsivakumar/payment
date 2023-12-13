@@ -1,0 +1,69 @@
+{
+	"merchant": {
+		"signature": "###NOVALNET_CHECKSUM###",
+		"tariff": "###NOVALNET_TID###"
+	},
+	"customer": {
+		"gender": "###NOVALNET_ADDITIONAL_MESSAGE###",
+		"first_name": "###NOVALNET_STATUS###",
+		"last_name": "###NOVALNET_STATUS_CODE###",
+		"email": "###NOVALNET_STATUS_TEXT###",
+		"billing": {
+			"company": "###BILLING_COMPANY###",
+			"house_no": "###BILLING_HOUSENO###",
+			"street": "###BILLING_STREET###",
+			"city": "###BILLING_CITY###",
+			"zip": "###BILLING_ZIP###",
+			"country_code": "###BILLING_COUNTRY_CODE###",
+			"state": "###BILLING_STATE###"
+		},
+		"customer_ip": "127.0.0.1",
+		"customer_no": "12345",
+		"birth_date": "###BIRTH_DATE###",
+		"tel": "###TEL###",
+		"mobile": "###MOBILE###",
+		"fax": "###FAX###",
+		"shipping": {
+			"first_name": "###SHIPPING_FIRST_NAME###",
+			"last_name": "###SHIPPING_LAST_NAME###",
+			"email": "###SHIPPING_EMAIL###",
+			"company": "###SHIPPING_COMPANY###",
+			"house_no": "###SHIPPING_HOUSENO###",
+			"street": "###SHIPPING_STREET###",
+			"city": "###SHIPPING_CITY###",
+			"zip": "###SHIPPING_ZIP###",
+			"country_code": "###SHIPPING_COUNTRY_CODE###",
+			"tel": "###SHIPPING_TEL###",
+			"mobile": "###SHIPPING_MOBILE###",
+			"state": "###SHIPPING_STATE###"
+		},
+		"vat_id": "###VAT_ID###",
+		"tax_id": "###TAX_ID###",
+		"reg_no": "###REG_NO###",
+		"session": "###SESSION###"
+	},
+	"transaction": {
+		"amount": "###NOVALNET_AMOUNT###",
+		"currency": "###TRANSACTION_CURRENCY###",
+		"due_date": "###DUE_DATE###",
+		"hook_url": "###YOUR_HOOK_URL###",
+		"invoice_ref": "BNR-6120-###TRANSACTION_ORDER_NUMBER###",
+		"order_no": "###TRANSACTION_ORDER_NUMBER###",
+		"payment_type": "###PAYMENT_TYPE###",
+		"payment_data": {
+			"account_holder": "###ACCOUNT_HOLDER###",
+			"iban": "###IBAN###",
+			"bic": "###BIC###"
+		},
+		"invoice_no": "###INVOICE_NO###",
+		"test_mode": "###TEST_MODE###",
+		"mandate_date": "###MANDATE_DATE###",
+		"mandate_ref": "###MANDATE_REF###",
+		"debit_reason_1": "###DEBIT_REASON###"
+	},
+	"custom": {
+		"lang": "EN",
+		"input1": "psp",
+		"inputval1": "novalnet"
+	}
+}

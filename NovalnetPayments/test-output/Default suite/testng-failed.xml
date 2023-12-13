@@ -5,7 +5,7 @@
     <classes>
       <class name="com.nn.DirectDebitSEPA.FunctionalTestCases">
         <methods>
-          <include name="prosessPartialFullRefund"/>
+          <include name="transactionCapture"/>
         </methods>
       </class> <!-- com.nn.DirectDebitSEPA.FunctionalTestCases -->
     </classes>
